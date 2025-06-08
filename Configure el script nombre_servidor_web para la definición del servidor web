@@ -1,0 +1,16 @@
+ set webserverName webserver1
+ set webserverNodeSuffix _node
+ set webserverNodeName   $webserverName$webserverNodeSuffix
+ $AdminConfig remove [$AdminConfig getid /Node:$webserverNodeName/Server:$webserverName]
+ $AdminConfig remove [$AdminConfig getid /Node:$webserverNodeName]
+ $AdminConfig save
+set webserverName webserver1
+set webserverNodeSuffix _node
+set webserverNodeName 
+$webserverName$webserverNodeSuffix
+$AdminConfig remove 
+  [$AdminConfig getid 
+    /Node:$webserverNodeName/Server:$webserverName]
+$AdminConfig remove 
+  [$AdminConfig getid /Node:$webserverNodeName]
+$AdminConfig save
