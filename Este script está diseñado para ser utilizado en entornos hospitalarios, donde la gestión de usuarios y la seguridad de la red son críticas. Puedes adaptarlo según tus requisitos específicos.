@@ -1,0 +1,23 @@
+cd /ruta/a/tu/carpeta/Hospital-Patologia-Network
+      cd C:\Users\tuusuario\Hospital-Patologia-Network
+      git init
+      git commit -m "Agregado script para gestión de usuarios y VLANs en red hospitalaria"
+      git remote add origin https://github.com/tuusuario/Hospital-Patologia-Network.git
+      git push -u origin main
+      chmod +x manage_users.sh
+      ./manage_users.sh
+   # Paso 4: Crear carpeta y guardar archivo
+cd /ruta/a/tu/carpeta/Hospital-Patologia-Network
+
+# Paso 5: Inicializar Git
+git init
+
+# Paso 6: Agregar y commit
+git add manage_users.sh
+git commit -m "Agregado script para gestión de usuarios y VLANs en red hospitalaria"
+
+# Paso 7: Conectar con GitHub
+git remote add origin https://github.com/tuusuario/Hospital-Patologia-Network.git
+
+# Paso 8: Subir cambios
+git push -u origin main
